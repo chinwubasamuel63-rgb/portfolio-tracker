@@ -1,0 +1,45 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(10, 17, 35);
+}
+
+p{
+  color: khaki;
+}
+
+header{
+  text-align: center;
+  color: khaki;
+  padding: 35px;
+  font-size: 35px;
+  padding-bottom: 100px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card1, .card2, .card3, .card4{
+  position: relative;
+}
+
+.card1 p, .card2 p, .card3 p, .card4 p{
+  background-color: rgb(149, 155, 181);
+  height: 300px;
+  width: 300px;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.fa-calendar-days{
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+  color: khaki;
+  position: absolute;
+}
