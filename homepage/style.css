@@ -7,6 +7,7 @@
 
 body{
   background-color: rgb(10, 17, 35);
+  cursor: pointer;
 }
 
 p{
@@ -35,6 +36,15 @@ header h1{
   font-size: 20px;
 }
 
+.logo a{
+  text-decoration: none;
+  color: rgb(10, 17, 35);
+}
+
+.logo a:hover{
+  color: khaki;
+}
+
 .logo p:hover{
   color: khaki;
 }
@@ -54,6 +64,10 @@ header h1{
 
 .nav-links a:hover{
   color: khaki;
+}
+
+#nav-svg{
+  display: none;
 }
 
 .cards {
@@ -144,6 +158,11 @@ header h1{
 
   .nav-links a{
     display: none;
+  }
+
+  #nav-svg{
+    display: block;
+    padding-left: 180px;
   }
 
   .logo p{
