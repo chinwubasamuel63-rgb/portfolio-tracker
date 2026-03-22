@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+      <header>
+        <div class="nav-bar">
+            <div class="logo">
+              <p> <a href="/Homepage/index.html">Portfolio Tracker</a></p>
+            </div>
+            <div id="nav-svg">
+              <i class="fa-solid fa-bars-staggered"> </i>
+            </div>
+
+            <div class="search">
+              <input type="text" placeholder="Search..">
+            </div>
+            <div class="nav-links">
+              <nav>
+                <a href="/homepage/index.html">Homepage</a>
+                <a href="/Profile-Page/profile.html">Profile</a>
+                <a href="/Contact-Page/contact.html">Contact Us</a>
+                <a href="">Suggestion</a>
+                <a href="">Build Mode</a>
+                <a href="/Settings-Page/Setting.html">Settings</a>
+              </nav>
+            </div>
+        </div>
+      </header>
+
+      <main class="profile-container">
+  <section class="auth-card">
+    <h2 class="profile-title">Create Your Account</h2>
+
+    <div class="logs">
+      <button class="google-btn">
+        <i class="fa-brands fa-google"></i> Continue With Google
+      </button>
+
+      <div class="divider"><span>OR</span></div>
+
+      <form id="signup-form">
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="name@example.com" required>
+        </div>
+
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="••••••••" required>
+        </div>
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="terms">
+          <label for="terms">I accept the <a>Terms and Conditions</a></label>
+        </div>
+
+        <button type="submit" class="pro-btn signup-btn">Create Account</button>
+      </form>
+
+      <p class="logs-info">
+        By joining, you agree to our automated progress tracking and data privacy rules.
+      </p>
+
+      <div class="form-footer">
+        Already have an account? <a href="">Sign in</a>
+      </div>
+    </div>
+  </section>
+</main>
+    <script src="script.js"></script>
+</body>
+</html>

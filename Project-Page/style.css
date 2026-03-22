@@ -1,0 +1,98 @@
+* { 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(10, 17, 35);
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(149, 155, 181, 0.1); /* Transparent glass effect */
+  backdrop-filter: blur(10px);
+  padding: 20px 5%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo a {
+  text-decoration: none;
+  color: khaki;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.search input[type=text] {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: white;
+  transition: 0.3s;
+  width: 250px;
+}
+
+.search input[type=text]:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 300px;
+}
+
+.nav-links nav {
+  display: flex;
+  gap: 25px;
+}
+#nav-svg {
+  display: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #bdc3c7;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: khaki;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+.pro-btn {
+  background-color: khaki;
+  color: rgb(10, 17, 35);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.user h3 {
+  color: khaki;
+  font-size: 28px;
+  font-weight: 300;
+}
